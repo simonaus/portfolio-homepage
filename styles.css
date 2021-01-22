@@ -101,3 +101,17 @@ div.guide {
 a {
   text-decoration: none;
 }
+
+/* footer */
+
+footer {
+  background-color:#817c6c;
+  height: 40px;
+}
+
+.footer {
+  padding-top: 15px;
+  padding-right: 10px;
+  text-align: right;
+  font-weight: 700;
+}
