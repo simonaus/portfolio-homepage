@@ -1,5 +1,14 @@
 /* general */
 
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+  background-color: #eef3f7;
+  display: flex;
+  flex-flow: column;
+}
+
 h1 {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 3rem;
@@ -65,16 +74,7 @@ nav {
   text-decoration: underline;
 }
 
-/* main */
-
-main {
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 70px;
-  background-color: #eef3f7;
-  display: flex;
-  flex-flow: column;
-}
+/* main index.html */
 
 section.guide {
   padding-top: 100px;
@@ -114,4 +114,49 @@ footer {
   padding-right: 10px;
   text-align: right;
   font-weight: 700;
+}
+
+/* main about-me.html */
+
+.buffer {
+  height: 40px;
+}
+
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+  grid-template-areas: "color-block1 about1 about1 about1"
+                       "about2 about2 about2 color-block2"
+                       "color-block3 about3 about3 about3";
+}
+
+.color-block1 {
+  grid-area: color-block1;
+}
+
+.color-block2 {
+  grid-area: color-block2;
+}
+
+.color-block3 {
+  grid-area: color-block3;
+}
+
+.about1 {
+  grid-area: about1;
+}
+
+.about2 {
+  grid-area: about2;
+}
+
+.about3 {
+  grid-area: about3;
 }
