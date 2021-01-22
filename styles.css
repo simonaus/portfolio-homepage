@@ -132,31 +132,36 @@ footer {
 .grid {
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-  grid-template-areas: "color-block1 about1 about1 about1"
-                       "about2 about2 about2 color-block2"
-                       "color-block3 about3 about3 about3";
+  grid-template-areas: "color-block1 color-block1 about1 about1"
+                       "about2 about2 color-block2 color-block2"
+                       "color-block3 color-block3 about3 about3";
+  row-gap: 50px;
+  padding-bottom: 70px;
 }
 
-.color-block1 {
+#color-block1 {
   grid-area: color-block1;
+  background-color: #154e6e;
 }
 
-.color-block2 {
+#color-block2 {
   grid-area: color-block2;
+  background-color: #154e6e;
 }
 
-.color-block3 {
+#color-block3 {
   grid-area: color-block3;
+  background-color: #154e6e;
 }
 
-.about1 {
+#about1 {
   grid-area: about1;
 }
 
-.about2 {
+#about2 {
   grid-area: about2;
 }
 
-.about3 {
+#about3 {
   grid-area: about3;
 }
