@@ -1,3 +1,40 @@
+/* general */
+
+h1 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #154e6e;
+  text-align: center;
+  padding-top: 25px;
+  letter-spacing: .4rem;
+  word-spacing: 1rem;
+}
+
+h2 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #154e6e;
+  padding-top: 25px;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.8rem;
+  color: #131B23;
+  padding-top: 15px;
+  text-align: center;
+}
+
+p {
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.2rem;
+  color: #131B23;
+  text-align: center;
+}
+
 /* header */
 
 header {
@@ -19,12 +56,13 @@ header {
 
 nav {
   width: 25%;
-  color: #2274A5;
+  color: #154e6e;
   display: flex;
   justify-content: space-around;
   font-family: 'Nanum Gothic Coding', monospace;
   font-weight: 700;
   font-size: 1.8rem;
+  text-decoration: underline;
 }
 
 /* main */
@@ -34,4 +72,32 @@ main {
   margin: 0 auto;
   padding-top: 70px;
   background-color: #eef3f7;
+  display: flex;
+  flex-flow: column;
+}
+
+section.guide {
+  padding-top: 100px;
+}
+
+div.guide {
+  display: flex;
+  padding-top: 70px;
+  height: 500px;
+  justify-content: space-evenly;
+}
+
+.guide-item {
+  height: 200px;
+  width: 200px;
+  border: 2px dashed #131B23;
+  border-radius: 10%;
+}
+
+.guide-item h3 {
+  padding-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
 }
