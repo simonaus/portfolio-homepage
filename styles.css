@@ -376,4 +376,8 @@ footer {
     justify-content: space-evenly;
   }
 
+  nav {
+    text-decoration: none;
+  }
+
 }
