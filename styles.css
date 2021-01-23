@@ -165,3 +165,42 @@ footer {
 #about3 {
   grid-area: about3;
 }
+
+/* main projects.html */
+
+.flex {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tab {
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
+}
+
+.project-info {
+  height: 250px;
+  background-color: #e7dfc6;
+  border-radius: 0 0 10px 10px;
+}
+
+#tab1 {
+  background-color: #154e6e;
+  border-radius: 10px 10px 0 0;
+}
+
+#tab2 {
+  background-color: #2991ce;
+  border-radius: 10px 10px 0 0;
+}
+
+#tab3 {
+  background-color: #2991ce;
+  border-radius: 10px 10px 0 0;
+}
