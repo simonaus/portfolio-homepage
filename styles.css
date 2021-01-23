@@ -178,29 +178,28 @@ footer {
   justify-content: space-between;
 }
 
-.tab {
-  width: 33%;
-  height: 40px;
-  line-height: 40px;
-}
-
 .project-info {
   height: 250px;
   background-color: #e7dfc6;
   border-radius: 0 0 10px 10px;
 }
 
-#tab1 {
+.selected {
   background-color: #154e6e;
   border-radius: 10px 10px 0 0;
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
 }
 
-#tab2 {
+.unselected {
   background-color: #2991ce;
   border-radius: 10px 10px 0 0;
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
 }
 
-#tab3 {
-  background-color: #2991ce;
-  border-radius: 10px 10px 0 0;
+.hidden-info {
+  display: none;
 }
