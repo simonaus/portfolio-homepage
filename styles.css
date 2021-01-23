@@ -44,6 +44,25 @@ p {
   text-align: center;
 }
 
+#mode {
+  display: flex;
+  padding-top: 20px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#light{
+  border: 2px solid #131B23;
+  width: 10%;
+  border-right-width: 1px;
+}
+
+#dark{
+  border: 2px solid #131B23;
+  width: 10%;
+  border-left-width: 1px;
+}
+
 /* header */
 
 header {
@@ -203,3 +222,19 @@ footer {
 .hidden-info {
   display: none;
 }
+
+
+Background white = dark grey
+#eef3f7;
+
+heading blue = same
+#154e6e
+
+text dark blue = background white
+#131B23
+
+header cream = light grey
+#e7dfc6
+
+footer brown = header cream
+#817c6c

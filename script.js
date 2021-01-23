@@ -34,3 +34,6 @@ for (let i = 0; i < tabsArray.length; i++) {
 
   })
 }
+
+//functionality to switch between light and dark mode
+
