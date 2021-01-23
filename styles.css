@@ -2,6 +2,7 @@
 
 main {
   width: 90%;
+  height: 800px;
   margin: 0 auto;
   padding-top: 70px;
   background-color: #eef3f7;
@@ -156,7 +157,7 @@ a {
 
 footer {
   background-color:#817c6c;
-  height: 40px;
+  height: 50px;
 }
 
 .footer {
@@ -236,6 +237,7 @@ footer {
 .project-info {
   height: 250px;
   border-radius: 0 0 10px 10px;
+  text-align: left;
 }
 
 .selected {
@@ -286,4 +288,92 @@ footer {
 
 .footer-dark {
   background-color: #7a7667;
+}
+
+/* media queries for long screens */
+
+@media only screen and (min-height: 800px) and (max-height: 1050px) {
+
+  main {
+    height: 1000px;
+  }
+}
+
+@media only screen and (min-height: 1050px) and (max-height: 1250px) {
+
+  main {
+    height: 1200px;
+  }
+}
+
+@media only screen and (min-height: 1250px) and (max-height: 1500px) {
+
+  main {
+    height: 1400px;
+  }
+}
+
+/* media queries for thin screens */
+
+@media only screen and (max-width: 800px) {
+
+  header {
+    flex-flow: column;
+    height: 90px;
+  }
+
+  nav {
+    width: 70%;
+    padding-bottom: 10px;
+  }
+
+  #mode {
+    flex-flow: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding-top: 35px;
+    padding-right: 5px;
+  }
+
+  #mode p {
+    height: 30px;
+  }
+
+  #light {
+    width: 70px;
+    border-right-width: 2px;
+    border-bottom-width: 1px;
+    margin-right: 15px;
+  }
+
+  #dark {
+    width: 70px;
+    border-left-width: 2px;
+    border-bottom-width: 1px;
+    margin-right: 15px;
+  }
+
+  .flex {
+    width: 90%;
+  }
+
+  .grid {
+    grid-template-areas: "color-block1 about1 about1 about1"
+                         "about2 about2 about2 color-block2"
+                         "color-block3 about3 about3 about3";
+    margin-top: 20px;
+  }
+
+  main {
+    height: 1100px;
+  }
+
+  div.guide {
+    flex-flow: column;
+    padding-top: 10px;
+    align-items: center;
+    height: 500px;
+    justify-content: space-evenly;
+  }
+
 }
