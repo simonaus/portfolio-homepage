@@ -14,6 +14,14 @@ for (let i = 0; i < tabsArray.length; i++) {
       event.target.classList.remove('unselected');
     }
 
+    if (event.target.classList.contains('unselected-dark')) {
+
+      document.getElementsByClassName('selected-dark')[0].classList.add('unselected-dark');
+      document.getElementsByClassName('selected-dark')[0].classList.remove('selected-dark');
+      event.target.classList.add('selected-dark');
+      event.target.classList.remove('unselected-dark');
+    }
+
     document.getElementsByClassName('visible')[0].classList.add('hidden-info');
     document.getElementsByClassName('visible')[0].classList.remove('visible');
 
@@ -34,6 +42,4 @@ for (let i = 0; i < tabsArray.length; i++) {
 
   })
 }
-
-//functionality to switch between light and dark mode
 

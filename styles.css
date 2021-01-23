@@ -13,7 +13,6 @@ h1 {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 3rem;
   font-weight: 700;
-  color: #154e6e;
   text-align: center;
   padding-top: 25px;
   letter-spacing: .4rem;
@@ -24,7 +23,6 @@ h2 {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 2.2rem;
   font-weight: 700;
-  color: #154e6e;
   padding-top: 25px;
   text-align: center;
 }
@@ -32,7 +30,6 @@ h2 {
 h3 {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.8rem;
-  color: #131B23;
   padding-top: 15px;
   text-align: center;
 }
@@ -40,7 +37,6 @@ h3 {
 p {
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.2rem;
-  color: #131B23;
   text-align: center;
 }
 
@@ -52,21 +48,50 @@ p {
 }
 
 #light{
-  border: 2px solid #131B23;
+  border: 2px solid;
   width: 10%;
   border-right-width: 1px;
+  padding: 0 0;
 }
 
 #dark{
-  border: 2px solid #131B23;
+  border: 2px solid;
   width: 10%;
   border-left-width: 1px;
+  padding: 0 0;
+}
+
+.button {
+  padding: 0 37%;
+}
+
+.blue-text {
+  color: #154e6e;
+}
+
+.blue-text-dark {
+  color: #2481B8;
+}
+
+.black-text {
+  color: #131B23;
+}
+
+.black-text-dark {
+  color: #7eb3e7;
+}
+
+.brown-background {
+  background-color: #e7dfc6;
+}
+
+.brown-background-dark {
+  background-color: #575345;
 }
 
 /* header */
 
 header {
-  background-color: #e7dfc6;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -78,13 +103,11 @@ header {
 .logo {
   font-family: 'Yusei Magic', sans-serif;
   font-size: 2.5rem;
-  color: #131B23;
   padding-left: 15px;
 }
 
 nav {
   width: 25%;
-  color: #154e6e;
   display: flex;
   justify-content: space-around;
   font-family: 'Nanum Gothic Coding', monospace;
@@ -109,8 +132,16 @@ div.guide {
 .guide-item {
   height: 200px;
   width: 200px;
-  border: 2px dashed #131B23;
+  border: 2px dashed;
   border-radius: 10%;
+}
+
+.black-border {
+  border-color: #131B23;
+}
+
+.black-border-dark {
+  border-color: #82b7ec;
 }
 
 .guide-item h3 {
@@ -160,17 +191,22 @@ footer {
 
 #color-block1 {
   grid-area: color-block1;
-  background-color: #154e6e;
 }
 
 #color-block2 {
   grid-area: color-block2;
-  background-color: #154e6e;
 }
 
 #color-block3 {
   grid-area: color-block3;
+}
+
+.color-block {
   background-color: #154e6e;
+}
+
+.color-block-dark {
+  background-color: #2481B8;
 }
 
 #about1 {
@@ -199,12 +235,19 @@ footer {
 
 .project-info {
   height: 250px;
-  background-color: #e7dfc6;
   border-radius: 0 0 10px 10px;
 }
 
 .selected {
   background-color: #154e6e;
+  border-radius: 10px 10px 0 0;
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
+}
+
+.selected-dark {
+  background-color: #336481;
   border-radius: 10px 10px 0 0;
   width: 33%;
   height: 40px;
@@ -219,22 +262,28 @@ footer {
   line-height: 40px;
 }
 
+.unselected-dark {
+  background-color: #2481B8;
+  border-radius: 10px 10px 0 0;
+  width: 33%;
+  height: 40px;
+  line-height: 40px;
+}
+
 .hidden-info {
   display: none;
 }
 
+/* dark elements */
 
-Background white = dark grey
-#eef3f7;
+.html-dark {
+  background-color: #000000;
+}
 
-heading blue = same
-#154e6e
+.main-dark {
+  background-color: #232425;
+}
 
-text dark blue = background white
-#131B23
-
-header cream = light grey
-#e7dfc6
-
-footer brown = header cream
-#817c6c
+.footer-dark {
+  background-color: #7a7667;
+}

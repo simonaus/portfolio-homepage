@@ -6,40 +6,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic+Coding:wght@400;700&family=Yusei+Magic&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <script src="script.js" defer></script>
     <title>Portfolio Homepage</title>
   </head>
   <body>
-    <header>
-      <div class="logo">SR PORTFOLIO</div>
-      <nav>
-        <a href="about-me.html"><p>About Me</p></a>
-        <a href="projects.html"><p>Projects</p></a>
+    <header class="brown-background">
+      <div class="logo black-text">SR PORTFOLIO</div>
+      <nav class="blue-text">
+        <a href="about-me.html"><p class="black-text">About Me</p></a>
+        <a href="projects.html"><p class="black-text">Projects</p></a>
       </nav>
     </header>
     <main>
       <div id="mode">
-        <p>Switch mode</p>
-        <button type="button" id="light">Light</p>
-        <button type="button" id="dark">Dark</p>
+        <p class="black-text">Switch mode</p>
+        <button class="black-text black-border" type="button" id="light">Light</button>
+        <button class="black-text black-border" type="button" id="dark"><a class="black-text button" href="index-dark.html">Dark</a></button>
       </div>
-      <h1>My Portfolio</h1>
-      <h3>A brief glimpse at my place in the world of coding</h3>
+      <h1 class="blue-text">My Portfolio</h1>
+      <h3 class="black-text">A brief glimpse at my place in the world of coding</h3>
       <section class="guide">
-        <h2>Portfolio Guide</h2>
+        <h2 class="blue-text">Portfolio Guide</h2>
         <div class="guide">
-          <a href="about-me.html" class="guide-item">
-              <h3>About Me</h3>
-              <p>Click here to learn (a little bit) about me, my story and for contact details.</p>
+          <a href="about-me.html" class="guide-item black-border">
+              <h3 class="black-text">About Me</h3>
+              <p class="black-text">Click here to learn (a little bit) about me, my story and for contact details.</p>
           </a>
-          <a href="projects.html" class="guide-item">
-              <h3>Projects</h3>
-              <p>Click here to for some info on my projects</p>
+          <a href="projects.html" class="guide-item black-border">
+              <h3 class="black-text">Projects</h3>
+              <p class="black-text">Click here to for some info on my projects</p>
           </a>
         </div>
       </section>
     </main>
     <footer>
-      <p class="footer">Simon R, Jan 2021</p>
+      <p class="footer black-text">Simon R, Jan 2021</p>
     </footer>
   </body>
 </html>

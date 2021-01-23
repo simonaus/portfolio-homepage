@@ -6,36 +6,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Nanum+Gothic+Coding:wght@400;700&family=Yusei+Magic&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <script src="script.js" defer></script>
     <title>About Me</title>
   </head>
   <body>
-    <header>
-      <div class="logo">SR PORTFOLIO</div>
-      <nav>
-        <a href="index.html"><p>My Portfolio</p></a>
-        <a href="projects.html"><p>Projects</p></a>
+    <header class="brown-background">
+      <div class="logo black-text">SR PORTFOLIO</div>
+      <nav class="blue-text">
+        <a href="index.html"><p class="black-text">My Portfolio</p></a>
+        <a href="projects.html"><p class="black-text">Projects</p></a>
       </nav>
     </header>
     <main>
       <div id="mode">
-        <p>Switch mode</p>
-        <button type="button" id="light">Light</p>
-        <button type="button" id="dark">Dark</p>
+        <p class="black-text">Switch mode</p>
+        <button class="black-text black-border" type="button" id="light">Light</button>
+        <button class="black-text black-border" type="button" id="dark"><a class="black-text button" href="about-me-dark.html">Dark</a></button>
       </div>
       <div class="buffer"></div>
       <img class="headshot" src="profile-picture.jpg">
-      <h1>About Me</h1>
+      <h1 class="blue-text">About Me</h1>
       <section class="grid">
-        <div id="color-block1"></div>
-        <p id="about1">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
-        <p id="about2">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
-        <div id="color-block2"></div>
-        <div id="color-block3"></div>
-        <p id="about3">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
+        <div id="color-block1" class="color-block"></div>
+        <p class="black-text" id="about1">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
+        <p class="black-text" id="about2">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
+        <div id="color-block2" class="color-block"></div>
+        <div id="color-block3" class="color-block"></div>
+        <p class="black-text" id="about3">Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test </p>
       </section>
     </main>
     <footer>
-      <p class="footer">Simon R, Jan 2021</p>
+      <p class="footer black-text">Simon R, Jan 2021</p>
     </footer>
   </body>
 </html>
