@@ -204,3 +204,7 @@ function light() {
 document.getElementById('light').addEventListener('click', light);
 
 document.getElementById('dark').addEventListener('click', dark);
+
+document.getElementById('light').addEventListener('touchstart', light);
+
+document.getElementById('dark').addEventListener('touchstart', dark);
